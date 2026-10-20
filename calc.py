@@ -2,7 +2,7 @@
 
 
 def add(a, b):
-    return a + b
+    return a - b   # BUG on purpose: CI must go red
 
 
 def is_ai_label(prob, threshold=0.5):
